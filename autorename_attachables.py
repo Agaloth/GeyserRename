@@ -44,8 +44,8 @@ def rename_and_backup_files_recursive(root_directory, output_directory):
 
 
 if __name__ == "__main__":
-    target_directory = "C:/Users/agalo/Downloads/bedrock-samples-main/resource_pack/ui/BedrockPack/attachables"  # Replace with your directory path
-    output_directory = "C:/Users/agalo/Desktop/renamed/test"  # Replace with your output directory path
+    target_directory = "xxx" # Target directory (replace the xxx by your animations directory)
+    output_directory = "xxx"  # Backup directory (replace the xxx by your backup directory)
     
     for root, _, _ in os.walk(target_directory):
         rel_path = os.path.relpath(root, target_directory)
