@@ -2,10 +2,10 @@ import os
 import shutil
 
 # Specify the directory where the files are located
-source_directory = 'C:/Users/agalo/Downloads/bedrock-samples-main/resource_pack/ui/BedrockPack/animations'
-output_directory = 'C:/Users/agalo/Desktop/renamed/animations'  # Main output directory
+source_directory = 'xxx' # Target directory (replace the xxx by your animations directory)
+output_directory = 'xxx'  # Backup directory (replace the xxx by your backup directory)
 
-# Create the main output directory if it doesn't exist
+#  Create the main output directory if it doesn't exist
 os.makedirs(output_directory, exist_ok=True)
 
 # Function to recursively traverse and rename files
